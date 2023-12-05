@@ -1,10 +1,11 @@
+// Class Components
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World!</h1>
-    </div>
-  );
+import React from "react";
+
+class Heading extends React.Component {
+  render() {
+    return <h1>Hi, My name is Imran.</h1>;
+  }
 }
 
-export default App;
+export default Heading;
